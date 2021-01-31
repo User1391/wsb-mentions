@@ -1,0 +1,4 @@
+pandas == 1.1.4
+playsound == 1.2.2
+praw == 7.1.0
+spacy == 2.3.5
