@@ -10,11 +10,11 @@ clear = lambda: os.system('cls')
 nlp = spacy.load('en_core_web_sm')
 
 #setting up the reddit api
-reddit = praw.Reddit(client_id = 'fzZIGmSl6rA3JQ', \
-                     client_secret = 'Eck1_Gz1pC8tnNGIci4OIAfnIOXUEw', \
-                     user_agent = 'meme', \
-                     username = 'endpiN', \
-                     password = 'maxrox2020')
+reddit = praw.Reddit(client_id = '', \ #reddit api information & reddit login information
+                     client_secret = '', \
+                     user_agent = '', \
+                     username = '', \
+                     password = '')
 
 subreddit = reddit.subreddit('wallstreetbets')
 
